@@ -20,7 +20,7 @@
               <a class="nav-link" href="/restaurant/all">Restaurant</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/karyawab/all">Karyawan</a>
+              <a class="nav-link" href="/karyawan/all">Karyawan</a>
             </li>
           </ul>
         </div>
