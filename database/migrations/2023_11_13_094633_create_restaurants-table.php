@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('restaurants', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('nama');
             $table->text('alamat');
             $table->integer('nomor_telepon');
             $table->date('tanggal_dibuka');

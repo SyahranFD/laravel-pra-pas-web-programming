@@ -10,7 +10,7 @@
     <nav class="navbar navbar-expand-lg" style="background-color: #ff9900;">
 
     <div class="container-fluid">
-        <a class="navbar-brand" href="home">Navbar</a>
+        <a class="navbar-brand" href="/restaurant/all">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,7 +20,7 @@
               <a class="nav-link" href="/restaurant/all">Restaurant</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/menu/all">Menu</a>
+              <a class="nav-link" href="/karyawab/all">Karyawan</a>
             </li>
           </ul>
         </div>
