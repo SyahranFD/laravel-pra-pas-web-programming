@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Restaurant;
 use Illuminate\Http\Request;
 
 class RestaurantsController extends Controller
@@ -10,7 +11,7 @@ class RestaurantsController extends Controller
     {
         return view('restaurant.all', [
             'title'=> 'restaurant',
-            'restaurants'=> restaurant::all(),
+            'restaurants'=> Restaurant::all(),
         ]);
     }
 
@@ -18,7 +19,7 @@ class RestaurantsController extends Controller
     {
         return view('restaurant.detail', [
             'title'=> 'detail-restaurant',
-            'restaurant' => restaurant::find($restaurant),
+            'restaurant' => Restaurant::find($restaurant),
         ]);
     }
 }

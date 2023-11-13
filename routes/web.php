@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\KaryawansController;
+use App\Http\Controllers\RestaurantsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/karyawan/all', [KaryawansController::class,'index']);
+Route::get('/karyawan/detail/{karyawan}', [KaryawansController::class,'show']);
+
+Route::get('/restaurant/all', [RestaurantsController::class,'index']);
+Route::get('/restaurant/detail/{karyawan}', [RestaurantsController::class,'show']);
