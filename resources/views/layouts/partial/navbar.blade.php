@@ -22,6 +22,9 @@
             <li class="nav-item">
               <a class="nav-link" href="/karyawan/all">Karyawan</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bahan/all">Bahan</a>
+            </li>
           </ul>
         </div>
     </div>
